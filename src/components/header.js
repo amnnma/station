@@ -42,11 +42,11 @@ const Header = () => (
       <NavLink to="/" activeClassName="current-page">
         Home
       </NavLink>
+      <NavLink to="/shelf/" activeClassName="current-page">
+        Shelf
+      </NavLink>
       <NavLink to="/about/" activeClassName="current-page">
         About
-      </NavLink>
-      <NavLink to="/contact/" activeClassName="current-page">
-        Contact
       </NavLink>
     </nav>
   </header>
