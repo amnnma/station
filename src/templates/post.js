@@ -4,16 +4,8 @@ import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { css } from '@emotion/core';
 import Layout from '../components/layout';
 import ReadLink from '../components/read-link';
-import AdSense from 'react-adsense';
 
-// auto full width responsive ads
-<AdSense.Google
-  client='ca-pub-7292810486004926'
-  slot='7806394673'
-  style={{ display: 'block' }}
-  format='auto'
-  responsive='true'
-/>
+
 
 export const query = graphql`
   query($slug: String!) {
