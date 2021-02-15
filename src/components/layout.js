@@ -28,8 +28,6 @@ const Layout = ({ children }) => {
               'Segoe UI Emoji', 'Segoe UI Symbol';
             font-size: 18px;
             line-height: 1.4;
-
-            /* remove margin for the main div that Gatsby mounts into */
             > div {
               margin-top: 0;
             }

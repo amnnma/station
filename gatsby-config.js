@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'ZixBlog',
+    title: 'Daily Life',
     description:
       'My blog!',
   },
@@ -31,12 +31,6 @@ module.exports = {
       options: {
         name: 'images',
         path: 'images',
-      },
-    },
-    {
-      resolve: 'gatsby-source-instagram',
-      options: {
-        username: 'gatsbyjs',
       },
     },
     {

@@ -32,7 +32,7 @@ const Header = () => (
     `}
   >
     <NavLink to="/" fontWeight="bold">
-      Zixgus
+      Daily Life
     </NavLink>
     <nav
       css={css`
@@ -40,13 +40,10 @@ const Header = () => (
       `}
     >
       <NavLink to="/" activeClassName="current-page">
-        Home
+        Blog
       </NavLink>
-      <NavLink to="/about/" activeClassName="current-page">
+      <NavLink to="https://www.notion.so/iwannabetterthantoday/Profile-4c4dff642ccd47c09e21e5817970dc53">
         About
-      </NavLink>
-      <NavLink to="/contact/" activeClassName="current-page">
-        Contact
       </NavLink>
     </nav>
   </header>
