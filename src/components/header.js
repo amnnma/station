@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 
 const NavLink = styled(Link)`
   color: #222;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: ${props => props.fontWeight || 'normal'};
   line-height: 1;
   margin: 0 0.5rem 0 0;
@@ -24,8 +24,6 @@ const NavLink = styled(Link)`
 const Header = () => (
   <header
     css={css`
-      background: #eee;
-      border-bottom: 1px solid #ddd;
       display: flex;
       justify-content: space-between;
       padding: 0.5rem calc((100vw - 550px - 0.5rem) / 2);
@@ -44,6 +42,9 @@ const Header = () => (
       </NavLink>
       <NavLink to="https://www.notion.so/iwannabetterthantoday/Profile-4c4dff642ccd47c09e21e5817970dc53">
         About
+      </NavLink>
+      <NavLink to="https://www.notion.so/iwannabetterthantoday/dev-aa036756725d47feb8c1678215ae907c">
+        Blog Development
       </NavLink>
     </nav>
   </header>

@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
               Helvetica, Arial, sans-serif, 'Apple Color Emoji',
               'Segoe UI Emoji', 'Segoe UI Symbol';
             font-size: 18px;
-            line-height: 1.4;
+            line-height: 1;
             > div {
               margin-top: 0;
             }
@@ -64,7 +64,7 @@ const Layout = ({ children }) => {
       <Header />
       <main
         css={css`
-          margin: 2rem auto;
+          margin: 0.5rem auto;
           max-width: 550px;
         `}
       >
