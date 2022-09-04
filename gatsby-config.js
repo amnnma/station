@@ -8,6 +8,7 @@ module.exports = {
     'gatsby-plugin-emotion',
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
+    `gatsby-plugin-netlify-cms`,
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-mdx',
